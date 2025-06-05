@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<div class="login">
+<form onsubmit="enviar(); return false;">
+
+ <div class="info">
+ <img src="./assets/img/user.webp" id="usuario">
+  <img src="./assets/img/mail (2).png" id="icon1">
+    <input required autofocus type="text" id="email" placeholder="digite o seu e-mail" > 
+  <img src="./assets/img/trancar.png" id="icon2">
+    <input required autofocus minlength="4" type="password" id="senha" placeholder="digite a sua senha"> 
+ </div>
+
+ <div class="alter">
+    <button type="button" onclick="alteracao()" id="btn"></button> 
+ </div>
+    
+ <div class="acessar"> 
+    <button type="submit" id="acessar1">acessar</button>
+ </div>
+
+ <div class="password">
+   <a href="" id="mypass">esqueci minha senha</a>
+ </div>
+
+  <div class="registro">
+   <a href="">cadastrar</a>
+ </div>
+
+</form>
+    
+
+    <script src="./assets/script.js" defer></script>
+</body>
+</html>

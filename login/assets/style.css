@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+RO:wght@100..400&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    background-color: rgb(210, 169, 248);  
+    background-image: url(./img/photo_blurred.jpg);
+    background-size: cover;        
+    background-position: center;   
+    height: 100vh; 
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.432);
+    width: 380px;
+    padding: 30px;
+    height: 440px;  
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 1px 3px 20px black;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.info{
+    display: flex;
+    display: grid;
+    place-items: center; 
+}
+#usuario{
+    height: 100px;
+    margin-bottom: 300px;
+    box-shadow: -0px -0px 10px rgb(56, 0, 119);
+    border-radius: 200px;
+    position: absolute;
+}
+#icon1{
+    height: 25px;
+    margin-bottom: 70px;
+    margin-left: -240px;
+    position: absolute;
+}
+#icon2{
+    margin-left: -240px;
+    height: 25px;
+    margin-bottom: -70px;
+    position: absolute;
+}
+h1{
+    color: aliceblue;
+    text-shadow: -0px 1px 1px rgb(255, 255, 255);
+}
+#email, #senha{
+    cursor: pointer;
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#email{
+    margin-bottom: 40px;
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 15px;
+}
+::placeholder{
+    color: aliceblue;
+}
+#senha{
+    box-shadow: 1px 1px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    box-shadow: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    outline: none;
+    font-size: 15px;
+    color: aliceblue;
+}
+.alter{
+    margin-left: 250px;
+    margin-top: -24px;
+    text-align: center;
+}
+#btn{
+    background-image: url(./img/olhoroxo1.png);
+    background-size: 28px 25px;
+    background-position: center;
+    height: 22px;
+    width: 31px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    margin-top: -1px;
+    position: absolute;
+    margin-left: -10px;
+    font-family: "Playwrite RO";
+    background-color: transparent;
+   
+}
+#btn:hover{
+    background-image: url(./img/olhoroxo2.png);
+}
+.acessar{
+    text-align: center;
+    margin-top: 20px;
+    position: absolute;
+}
+#acessar1{
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: rgba(63, 3, 131, 0.89);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 25px;
+    border: none;
+    box-shadow: -0px 2px 5px rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', s
+}
+#acessar1:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(0, 0, 0);
+    box-shadow: 1px 2px 4px rgb(0, 0, 0); 
+    border: 2px solid rgba(0, 0, 0, 0.575); 
+}
+.password{
+    text-align: center;
+    margin-top: 133px;
+    margin-left: 145px;
+    position: absolute;
+}
+.registro{
+    margin-top: 133px;
+    position: absolute;
+}
+a{
+    color: rgb(236, 229, 229); 
+    text-shadow: -0px 1px 2px rgba(51, 25, 100, 0.904);
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: -0px 2px 1px rgb(0, 0, 0);
+    margin-left: -10px;
+}
+a:hover{
+    text-decoration: underline;
+}
